@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Rubik+Bubbles&family=Yellowtail&display=swap');
+
+.topcontainer{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin: -1.5rem 0rem -1.5rem 0rem;
+    /* margin-bottom: -2rem; */
+}
+
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+.left{
+    margin-bottom: 0.2rem;
+    font-size: 100%;
+    /* padding-left: 2rem; */
+    font-family: 'Yellowtail', cursive;
+    
+}
+
+.secondcontainer{
+    display: flex;
+    /* width: 100%; */
+    /* margin-left: 1rem; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    line-height: 1.5;
+    background-color: rgb(211,211,211);
+    padding: 3rem;
+}
+
+#passage{
+    margin-top: -1.5rem;
+}
+
+#image1{
+    margin-top: -1rem;
+    margin-left: 3rem;
+    /* float: right; */
+    /* height: 10vh;
+    width: 90vw; */
+}
+
+button{
+    margin-top: 2rem;
+    cursor: pointer;
+    border: none;
+    background-color: orangered;
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+}
+
+
+#heading{
+    margin-bottom: -1.5rem;
+    margin-left: 10rem;
+
+}
+
+.middle{
+   /* padding-bottom: 4rem; */
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-left: 9.5rem;
+   margin-right: 6rem;
+   height: 10%;
+   font-size:2.5vh;
+   margin-top: 2.5rem;
+   margin-bottom: 2.5rem;  
+   background-color: white;
+}
+
+.images{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   height: 80%;
+}
+
+.thirdcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(55,41,41);
+    margin-top: 2rem;
+    color: white;
+}
+.first >h4{
+    margin-left: 2rem;
+}
+.third >img{
+    margin-left: 4rem;
+}
+
+
+@media screen and (max-width:700px) {
+    
+    .right{
+        width: 100%;
+        padding: 0;
+       }
+    
+       .middle{
+        width: 70vw;
+        height: 50vh;
+        margin-left: 4rem;
+        /* padding: 0; */
+
+       }
+
+       /* .images{
+        width:150vw ;
+        height: 40vh;
+       } */
+    
+}

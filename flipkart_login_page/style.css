@@ -1,0 +1,168 @@
+body{background-color: black;}
+
+#container{
+   display: flex;
+   width: 50vw;
+   height: 88vh;
+   padding: 1.5rem 1rem 2.5rem 1rem;
+   margin: 1rem 5rem 5rem 21rem;
+   /* position: fixed; */
+}
+
+#leftSide{
+  background-color: rgb(40,115,240);
+  width: 17vw;
+  color: white;
+  padding: 1.5rem 1rem 4rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rightSide{
+    background-color:white;
+    width: 60%;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 90%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.link{
+    color: #2874f0;
+    text-decoration: none;
+  padding:  3rem;
+  margin-top: 5rem;
+
+}
+#password{
+    font-size:1rem;
+}
+#loginform >input   {
+    margin-top: 4rem;
+    font-size: 1rem;
+
+}
+
+.smalltag{
+    margin-left: 1rem;
+    height: 2%;
+    margin-top: 2rem;
+    font-size: large;
+}
+
+#underline{
+    text-decoration: none;
+}
+
+#forgotlink{
+    color: #2874f0;
+    font-weight: bold;
+    position: relative;
+    left: 38%;
+    font-size: large;
+    top:-2rem
+    
+}
+
+button{
+    padding: 0.8rem;
+    width: 90%;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+#loginBtn{
+   background-color: orangered;
+   color: white;
+   margin-top: 5rem;
+   font-size: large;
+}
+
+#requestBtn{
+    font-size: large;
+    padding: 3;
+   background-color: white;
+   color: #2874f0;
+   padding-block-end: 0.5rem;
+   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);   
+   
+   /* box-shadow: 2px 4px 3px black; */
+}
+
+
+/* responsive */
+
+@media screen and (max-width:900px) {
+  
+    #container{
+        margin-left: 2rem;
+        height: 100vw;
+    }
+    
+    #loginform{
+        width: 50%;
+        margin-right: 3rem;
+        padding: 0rem;
+        margin-bottom: 0rem;
+    }
+
+    #leftSide{
+        width: 60vw;
+        height: 80vh;
+        padding: 3rem;
+    }
+
+    .rightSide{
+        width: 30vw;
+        height: 80vh;
+        padding: 3rem;
+        line-height: none;
+
+    }
+     
+    #requestBtn{
+      margin-top: 1rem;
+     
+    }
+    #loginBtn{
+        width: 5rem;
+        height: 2.5rem;
+        margin-top: 2rem;
+    }
+
+    .link{
+        margin-right: 2rem;
+        width: 20vh;
+        /* margin: 0rem 2rem -10rem 2rem; */
+    }
+
+    .smalltag{
+        width: 100vh;
+        height: 50vw;
+        padding: 0rem;
+        margin-left: 0.5rem;
+    }
+
+    #loginform{
+        margin-top: -3rem;
+        width: 30vh;
+    }
+
+    #requestBtn{
+        margin-top: -6rem;
+        font-size: large;
+    }
+}

@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(229, 234, 234);
+}
+
+img{
+    padding: 0.1rem;
+    width: 10%;
+    display: flex;
+    justify-content: left;
+    float: left;
+ }
+ 
+
+.topsection{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    float: right ;
+    /* text-align: center; */
+}
+.topsection> button{
+    height: 0.1%;
+    cursor: pointer;
+    padding: 0.3rem;   
+    float: right; 
+    margin-top: 0.6rem;
+    color: blue;
+    border-color: blue;
+}
+
+.mainsection{
+    text-align: center;
+    padding: 5rem;
+}
+
+.mainsection >h1{
+    font-size:50px ;
+    color:black;
+    /* @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap'); */
+   /* font-family: 'Rubik Bubbles', cursive; */
+}
+
+.mainsection >input{
+    padding: 0.5rem;
+
+}
+
+.mainsection >button{
+    padding: 0.5rem;
+    width: 7%;
+    cursor: pointer;
+    background-color: red;
+}
+
+.listsection{
+    display: flex;
+    text-align: center;
+}
+
+.listsection >div{
+    display: flex;
+    text-align: left;
+    flex-direction: column; 
+    justify-content: space-around;
+    margin-left: 15rem;
+}
+#ptag{
+    margin-top: -1rem;
+}
+
+@media screen and (max-width:900px) {
+   .topsection{
+     width: 80%;
+     padding: 0;  
+   }
+
+   img{
+    width: 15%;
+   }
+
+   .mainsection > button{
+    width: 30%;
+   }
+   
+.listsection >div{
+    width: 50em;
+    height: 10vw;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+   }
+
+}

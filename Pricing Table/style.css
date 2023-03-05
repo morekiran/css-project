@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Rubik+Bubbles&display=swap');
+
+
+
+body{
+    background-color: lightgray;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+body >p{
+    color: gray;
+}
+#title{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.Card{
+    height: 65vh;
+    width: 20vw;
+    background-color:white;
+    border-radius: 30px;
+}
+
+.firstSection{
+     background-color: orange;
+     border-top-right-radius: 30px;
+     border-top-left-radius: 30px;
+     text-align: center;
+     color: white;
+     padding: 0.5rem;
+     height: 30vh;
+}
+
+.firstSection > p{
+    opacity: 0.6;
+    font-weight: 100;
+    font-size: small;
+    margin: -1rem;
+    padding-bottom: 1rem;
+}
+
+.firstSection >h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.firstSection >h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.secondSection{
+    text-align: left;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 28vh;
+}
+
+.secondSection >p{
+    font-size: 15px;
+    color: gray;
+}
+
+.secondSection >ul{
+    line-height: 1.5;
+    font-size: bold ;
+    color: black;
+    font-size: 15px;
+    list-style-image: url("./list\ icon.jpg");
+}
+
+.secondSection >button{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 1rem;
+    cursor: pointer;
+}
+   
+#container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#bluecard >.firstSection{
+    background-color: blue;
+
+}
+
+#darkblue >.firstSection{
+    background-color: rgb(43, 43, 170);
+}
+
+#button2{
+    background-color: blue;
+}
+
+#button3{
+    background-color: rgb(43, 43, 170);
+}
+
+
+@media screen and (max-width:900px) {
+    .Card{
+        /* padding: 0.6em; */
+        height: 100vh;
+        width: 30vw;
+    }
+
+    button{
+
+        height: 3rem;
+        width: 10rem;
+        margin-top: 1rem;
+    }
+
+    .firstSection >h2{
+        font-size: 2rem;
+        font-weight: 1rem;
+    
+    }
+
+    .firstSection >p{
+        font-size: 1.2rem;
+        font-weight: 1rem;
+
+    }
+    .firstSection >h1{
+        font-size: 3rem;
+        font-weight: 1rem;
+
+    }    
+    .firstSection{
+        padding: 1rem;
+        height: 30vh;
+        width: 26vw;
+   }
+
+   .secondSection{
+    text-align: left;
+
+    width: 20vw;
+    height: 5vh;
+}
+
+}
