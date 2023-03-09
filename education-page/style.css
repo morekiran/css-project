@@ -1,0 +1,100 @@
+body{background-image: url(https://spiderimg.amarujala.com/assets/images/2019/04/14/750x506/computer-typing_1555218357.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img{
+    background-color: rgb(102,102,102);
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    padding: 0.2rem;
+    margin: -0.5rem -0.5rem 1rem -0.5rem;
+}
+
+#img{
+    margin-top: 1rem;
+}
+
+.firstcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.rightsection{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    color: white;
+    margin-left: 10rem;
+}
+
+.secondcontainer{
+    margin-left: 3rem;
+    padding: 4rem;
+    height: 30vh;
+    width: 50vw;
+    margin-bottom: 3rem;
+
+}
+
+button{
+    border: none;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: white;
+}
+
+.secondcontainer >h1{
+    color: white;
+}
+
+.secondcontainer >p{
+    color: rgb(202, 191, 191);
+}
+
+.secondcontainer >button{
+    color: white;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.thirdcontainer{
+    display: flex;
+    justify-content: space-between;
+    /* height: 20vh; */
+    padding: 0.5rem;
+    text-align: center;
+    background-color: white;
+    margin: -0.5rem -0.5rem 1rem -0.5rem;
+
+}
+
+h4{
+    margin-top: -3rem;
+    /* color: white; */
+}
+
+.div >p{
+    color: grey;
+    width: 70%;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+.fourcontainer{
+    text-align: center;
+    margin-left: -55rem;
+    margin-top: rem;
+    line-height: 0.5rem;
+}
+
+.fourcontainer >p{
+    color: grey;
+}
